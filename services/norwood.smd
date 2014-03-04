@@ -1,0 +1,178 @@
+{
+	"methods": [{
+		"name": "assignSalesToConfirmation",
+		"operationType": null,
+		"parameters": [{
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "newScNo",
+			"type": "java.lang.String"
+		}, {
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "convertString",
+		"operationType": null,
+		"parameters": [{
+			"name": "s",
+			"type": "java.lang.Object"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "findProductByCategory",
+		"operationType": null,
+		"parameters": [{
+			"name": "category",
+			"type": "java.lang.String"
+		}, {
+			"name": "url",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.norwood.ProductService.ProductViewVO]"
+	}, {
+		"name": "findQuotationByCondition",
+		"operationType": null,
+		"parameters": [{
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "user",
+			"type": "java.lang.String"
+		}, {
+			"name": "role",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.norwood.ProductService.QuotHeadVO]"
+	}, {
+		"name": "genQuoteNo",
+		"operationType": null,
+		"parameters": [{
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "genScNo",
+		"operationType": null,
+		"parameters": [{
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "generateRelatedItem",
+		"operationType": null,
+		"parameters": [{
+			"name": "spid",
+			"type": "com.xedb.data.ScProductsId"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "getAppUrl",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "java.lang.String"
+	}, {
+		"name": "getDBService",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "com.xedb.XeDB"
+	}, {
+		"name": "merge",
+		"operationType": null,
+		"parameters": [{
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "products",
+			"type": "com.norwood.ProductService.ProductViewVOInputType"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "mergeQuoteOptions",
+		"operationType": null,
+		"parameters": [{
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "qid",
+			"type": "com.xedb.data.QuotProductsId"
+		}, {
+			"name": "pvo",
+			"type": "com.norwood.ProductService.ProductViewVO"
+		}, {
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": null
+	}, {
+		"name": "mergeQuoteProduct",
+		"operationType": null,
+		"parameters": [{
+			"name": "id",
+			"type": "com.xedb.data.QuotProductsId"
+		}, {
+			"name": "pvo",
+			"type": "com.norwood.ProductService.ProductViewVO"
+		}, {
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": null
+	}, {
+		"name": "mergeSc",
+		"operationType": null,
+		"parameters": [{
+			"name": "vo",
+			"type": "com.norwood.ProductService.QuotHeadVO"
+		}, {
+			"name": "products",
+			"type": "[com.norwood.ProductService.ProductViewVO]"
+		}, {
+			"name": "role",
+			"type": "java.lang.String"
+		}],
+		"returnType": "java.lang.String"
+	}, {
+		"name": "setAppUrl",
+		"operationType": null,
+		"parameters": [{
+			"name": "appUrl",
+			"type": "java.lang.String"
+		}],
+		"returnType": null
+	}, {
+		"name": "setProductList",
+		"operationType": null,
+		"parameters": [{
+			"name": "list",
+			"type": "[com.xedb.data.Product]"
+		}, {
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}],
+		"returnType": "[java.lang.Object]"
+	}, {
+		"name": "setProductOptionList",
+		"operationType": null,
+		"parameters": [{
+			"name": "list",
+			"type": "[com.xedb.data.ProductOption]"
+		}, {
+			"name": "session",
+			"type": "org.hibernate.Session"
+		}, {
+			"name": "rl",
+			"type": "[java.lang.Object]"
+		}],
+		"returnType": "[java.lang.Object]"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "norwood.json"
+}

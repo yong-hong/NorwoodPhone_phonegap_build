@@ -1,0 +1,32 @@
+{
+	"methods": [{
+		"name": "findRolesByUser",
+		"operationType": null,
+		"parameters": [{
+			"name": "userId",
+			"type": "java.lang.String"
+		}],
+		"returnType": "[com.norwood.UserService.RoleVO]"
+	}, {
+		"name": "getDBService",
+		"operationType": null,
+		"parameters": null,
+		"returnType": "com.xedb.XeDB"
+	}, {
+		"name": "login",
+		"operationType": null,
+		"parameters": [{
+			"name": "name",
+			"type": "java.lang.String"
+		}, {
+			"name": "pass",
+			"type": "java.lang.String"
+		}, {
+			"name": "role",
+			"type": "java.lang.String"
+		}],
+		"returnType": "com.norwood.UserService.UserIdVO"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "userService.json"
+}

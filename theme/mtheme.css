@@ -1,0 +1,1034 @@
+body .custom_wireframe input:focus,
+.custom_wireframe button, .custom_wireframe button:focus {
+outline-width: 0 !important;
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .custom_wireframe .wmlayout .HeaderContent a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .custom_wireframe .wmlayout .HeaderContent a:visited,
+#studio_designer.custom_wireframe .wmlayout .HeaderContent a,
+#studio_designer.custom_wireframe .wmlayout .HeaderContent a:visited,
+.custom_wireframe #wavemakerNode .wmlayout .HeaderContent a,
+.custom_wireframe #wavemakerNode .wmlayout .HeaderContent a:visited {
+color: #000000;
+}
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .custom_wireframe .wmlayout  a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .custom_wireframe .wmlayout  a:visited,
+#studio_designer.custom_wireframe .wmlayout  a,
+#studio_designer.custom_wireframe .wmlayout  a:visited,
+.custom_wireframe #wavemakerNode .wmlayout  a,
+.custom_wireframe #wavemakerNode  .wmlayout  a:visited {
+color: #000000;
+}
+}
+@media screen {
+.custom_wireframe .wmtogglebuttonpanel .wmbutton:first-child {
+-moz-border-radius-topleft: 2px !important;
+-moz-border-radius-bottomleft: 2px !important;
+-webkit-border-top-left-radius: 2px !important;
+-webkit-border-bottom-left-radius: 2px !important;
+border-top-left-radius: 2px !important;
+border-bottom-left-radius: 2px !important;
+}
+.custom_wireframe .wmtogglebuttonpanel .wmbutton:last-child {
+-moz-border-radius-topright: 2px !important;
+-moz-border-radius-bottomright: 2px !important;
+-webkit-border-top-right-radius: 2px !important;
+-webkit-border-bottom-right-radius: 2px !important;
+border-top-right-radius: 2px !important;
+border-bottom-right-radius: 2px !important;
+}
+.custom_wireframe .wmtogglebuttonpanel .wmbutton {
+-moz-border-radius-topright: 0px !important;
+-moz-border-radius-bottomright: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+-webkit-border-bottom-right-radius: 0px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+.custom_wireframe .wmtogglebuttonpanel,
+.custom_wireframe   .wmbutton,
+.custom_wireframe   .wmtogglebutton,
+.custom_wireframe   .wmbutton.wmbutton-disabled:hover,
+.custom_wireframe   .wmbutton.wmbutton-disabled:focus
+{
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 1px 1px 1px #444444;
+-webkit-box-shadow: 1px 1px 1px #444444;
+box-shadow: 1px 1px 1px #444444;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe  .wmbutton span {
+font-weight: bold;
+}
+.custom_wireframe   .wmbutton.toggleButtonDown {
+color: #000000;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.custom_wireframe   .wmbutton.Active,
+.custom_wireframe   .wmbutton:active,
+.custom_wireframe   .wmbutton.Focused,
+.custom_wireframe   .wmbutton:focus {
+color: #000000;
+background-color: #e5e5e5;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 1px 1px 1px #444444;
+-webkit-box-shadow: 1px 1px 1px #444444;
+box-shadow: 1px 1px 1px #444444;
+}
+}
+@media screen {
+.custom_wireframe .HeaderContent  .wmbutton,
+.custom_wireframe .HeaderContent  .wmtogglebutton,
+.custom_wireframe .HeaderContent  .wmbutton.wmbutton-disabled:active,
+.custom_wireframe .HeaderContent  .wmbutton.wmbutton-disabled:focus
+{
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 3px 3px 3px #444444;
+-webkit-box-shadow: 3px 3px 3px #444444;
+box-shadow: 3px 3px 3px #444444;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmbutton span {
+font-weight: bold;
+}
+.custom_wireframe .HeaderContent  .wmbutton.toggleButtonDown {
+color: #000000;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.custom_wireframe .HeaderContent  .wmbutton:hover,
+.custom_wireframe .HeaderContent  .wmbutton:active {
+color: #000000;
+background-color: #e5e5e5;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+}
+.custom_wireframe .wmPopupButton .popupIcon {
+background-image: url(images/comboArrowDownDark.png) !important;
+}
+.custom_wireframe .dijitCalendarDayLabel,
+.custom_wireframe .dijitCalendarDateLabel {
+font-size: 11px;
+}
+.custom_wireframe tr.dijitCalendarMonthContainer th {
+font-family: Verdana;
+font-size: 10px;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+}
+.custom_wireframe tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+font-family: Verdana;
+font-size: 10px;
+color: #000000;
+font-weight: bold;
+border-width: 0px;
+-moz-box-shadow: 0px 0px 0px black;
+-webkit-box-shadow: 0px 0px 0px black;
+box-shadow: 0px 0px 0px black;
+}
+.custom_wireframe table.dijitCalendarContainer {
+border-color: #444444;
+border-style: solid;
+border-width: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.custom_wireframe table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+background-color: #ffffff !important;
+color: #000000 !important;
+}
+.custom_wireframe .dijitCalendarBodyContainer td {
+border-style: solid;
+border-color: #444444;
+border-right-width: 1px;
+border-top-width: 1px;
+border-left-width: 0px;
+border-bottom-width: 0px;
+}
+.custom_wireframe .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.custom_wireframe .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+background-color: #eeeeee !important;
+color: #000000 !important;
+}
+.custom_wireframe .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.custom_wireframe .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.custom_wireframe .dijitCalendarContainer .dijitCalendarHoveredYear,
+.custom_wireframe .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.custom_wireframe .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+background-color: #ffffff !important;
+color: #000000 !important;
+}
+.custom_wireframe tr.dijitCalendarMonthContainer th .dijitCalendarPreviousYear,
+.custom_wireframe tr.dijitCalendarMonthContainer th .dijitCalendarNextYear,
+.custom_wireframe tr.dijitCalendarMonthContainer th .dijitCalendarCurrentMonthLabel {
+padding: 2px 5px;
+border-width: 1px;
+border-color: #000000;
+border: solid 1px white;
+}
+.custom_wireframe .dijitCalendarContainer {
+background-color: #ffffff;
+}
+.custom_wireframe .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.custom_wireframe .dijitCalendarContainer .dijitCalendarNextMonth,
+.custom_wireframe .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+background-color: #ffffff !important;
+background-image: none;
+color: #000000;
+}
+.custom_wireframe .dijitCalendarDayLabelTemplate {
+border-style: solid;
+border-color: #444444;
+border-right-width: 1px;
+}
+.custom_wireframe .wmdialog {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 3px 3px 3px black;
+-webkit-box-shadow: 3px 3px 3px black;
+box-shadow: 3px 3px 3px black;
+}
+.custom_wireframe .dialogtitlebar .wmlabel{
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+}
+.custom_wireframe .dialogtitlebar {
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-topright: 0px;
+-webkit-border-top-left-radius: 0px;
+-webkit-border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+.custom_wireframe .dialogfooter,
+.custom_wireframe .wmpagedialog-controlspanel {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius-bottomleft: 0px;
+-moz-border-radius-bottomright: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-webkit-border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+body.custom_wireframe .dialogtitlebar .wmbutton,
+body .custom_wireframe .dialogtitlebar .wmbutton {
+background-color: #c6d3d7;
+background-image: url(images/repeatx/brightEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+color: #000000;
+font-size: 12pt !important;
+font-weight: normal !important;
+padding: 2px 0px 0px 2px !important;
+font-family: sans-serif !important;
+-moz-border-radius: 0px !important;
+-webkit-border-radius: 0px !important;
+border-radius: 0px !important;
+-moz-box-shadow: 2px 2px 2px #444444;
+-webkit-box-shadow: 2px 2px 2px #444444;
+box-shadow: 2px 2px 2px #444444;
+}
+body.custom_wireframe .dialogfooter .wmbutton,
+body .custom_wireframe .dialogfooter .wmbutton {
+font-family: Verdana;
+font-size: 9pt;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 1px 1px 1px #444444;
+-webkit-box-shadow: 1px 1px 1px #444444;
+box-shadow: 1px 1px 1px #444444;
+}
+body.custom_wireframe .dialogtitlebar .wmbutton:hover,
+body.custom_wireframe .dialogtitlebar .wmbutton.Focused,
+body.custom_wireframe .dialogtitlebar .wmbutton:focus,
+body.custom_wireframe .dialogtitlebar .wmbutton:active {
+color: #000000;
+background-color: #86a2ac;
+background-image: url(images/repeatx/brightEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 1px 1px 1px #000000;
+-webkit-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+}
+body.custom_wireframe .dialogfooter .wmbutton.toggleButtonDown,
+body .custom_wireframe .dialogfooter .wmbutton.toggleButtonDown,
+body.custom_wireframe .dialogfooter .wmbutton:hover,
+body.custom_wireframe .dialogfooter .wmbutton:active,
+body.custom_wireframe .dialogfooter .wmbutton.Focused,
+body.custom_wireframe .dialogfooter .wmbutton:focus {
+color: #000000;
+background-color: #eeeeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+`
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.custom_wireframe .dialogtitlebar .dialogminifybutton {
+background-position: -16px;
+}
+.custom_wireframe .dialogtitlebar .dialogmaxifybutton {
+background-position: -32px;
+}
+.custom_wireframe .dialogtitlebar .dialogmaxifybutton,
+.custom_wireframe .dialogtitlebar .dialogclosebutton,
+.custom_wireframe .dialogtitlebar .dialogminifybutton {
+background-image: url(images/dialogIconsGray.png) !important;
+background-repeat: no-repeat;
+}
+.custom_wireframe .wmeditor .dijitTextBox.dijitFocused,
+.custom_wireframe .wmeditor .dijitTextArea.dijitFocused,
+.custom_wireframe .wmeditor .dijitComboBox.dijitFocused,
+.custom_wireframe .wmeditor .dijitSelect.dijitFocused {
+outline-width: 0 !important;
+}
+.custom_wireframe  .wmeditor .dijitTextBox,
+.custom_wireframe  .wmeditor .dijitTextArea,
+.custom_wireframe  .wmeditor .dijitComboBox
+{
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+.custom_wireframe  .wmeditor .dijitSelect .dijitButtonContents {
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-topleft: 2px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-bottom-left-radius: 2px;
+border-radius-bottomleft: 2px;
+border-radius-top-left: 2px;
+border-right: solid 0px transparent !important;
+display:block;
+}
+.custom_wireframe .wmeditor .dijitComboBox .dijitArrowButton,
+.custom_wireframe .wmeditor .dijitSelect .dijitArrowButton {
+height: 100% !important;
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-radius-bottomright: 2px;
+border-radius-topright: 2px;
+}
+.custom_wireframe .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
+height: 100% !important;
+}
+.custom_wireframe .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.custom_wireframe .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+background-position: 50% 50%;
+background-image: url(images/comboArrowDownDark.png);
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-radius-bottomright: 2px;
+border-radius-topright: 2px;
+}
+.custom_wireframe .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+background-position: 30% 30%;
+background-image: url(images/comboArrowDownDark.png);
+}
+.custom_wireframe .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+background-image: url(images/comboArrowUpDark.png);
+}
+.custom_wireframe .dijitSlider .dijitProgressBarLabel {
+color: white;
+}
+.custom_wireframe .dijitSlider .dijitSliderImageHandleH {
+background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+outline-width: 0;
+}
+@media screen {
+.custom_wireframe  .wmeditor .dijitSpinner .dijitArrowButton,
+.custom_wireframe  .wmeditor .dijitComboBox .dijitArrowButton,
+.custom_wireframe  .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #ffffff;
+background-image: none;
+}
+.custom_wireframe .wmeditor .wmeditor-caption {
+font-family: inherit;
+font-size: inherit;
+color: inherit;
+font-weight: bold;
+}
+.custom_wireframe .wmeditor .wmeditor-readonlyNode {
+font-family: inherit;
+font-size: inherit;
+color: inherit;
+font-weight: inherit;
+}
+.custom_wireframe  .wmeditor .dijitTextBox,
+.custom_wireframe  .wmeditor .dijitTextArea,
+.custom_wireframe  .wmeditor .dijitComboBox,
+.custom_wireframe  .wmeditor .dijitSelect .dijitButtonContents,
+.custom_wireframe  .dijitTimePickerItem {
+border-color: #999999;
+border-width: 1px;
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe  .wmeditor .dijitTextBox.dijitHover,
+.custom_wireframe  .wmeditor .dijitTextArea:hover,
+.custom_wireframe  .wmeditor .dijitComboBox.dijitHover,
+.custom_wireframe  .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.custom_wireframe  .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.custom_wireframe  .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #999999;
+background-color: #eeeeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe  .wmeditor .dijitTextBox.dijitFocused,
+.custom_wireframe  .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.custom_wireframe  .wmeditor .dijitTextArea.dijitFocused,
+.custom_wireframe  .wmeditor .dijitTextArea.dijitFocused:hover,
+.custom_wireframe  .wmeditor .dijitComboBox.dijitFocused,
+.custom_wireframe  .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.custom_wireframe  .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.custom_wireframe  .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents {
+color: #000000;
+border-color: #000000;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+@media screen {
+.custom_wireframe .HeaderContent .wmeditor .dijitSpinner .dijitArrowButton,
+.custom_wireframe .HeaderContent .wmeditor .dijitComboBox .dijitArrowButton,
+.custom_wireframe .HeaderContent .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #ffffff;
+}
+.custom_wireframe .HeaderContent .wmeditor .dijitTextBox,
+.custom_wireframe .HeaderContent .wmeditor .dijitTextArea,
+.custom_wireframe .HeaderContent .wmeditor .dijitComboBox,
+.custom_wireframe .HeaderContent .wmeditor .dijitSelect .dijitButtonContents,
+.custom_wireframe .HeaderContent .dijitTimePickerItem {
+border-color: #999999;
+border-width: 1px;
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmeditor .dijitTextBox.dijitHover,
+.custom_wireframe .HeaderContent .wmeditor .dijitTextArea:hover,
+.custom_wireframe .HeaderContent .wmeditor .dijitComboBox.dijitHover,
+.custom_wireframe .HeaderContent .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.custom_wireframe .HeaderContent .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.custom_wireframe .HeaderContent .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #999999;
+background-color: #eeeeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmeditor .dijitTextBox.dijitFocused,
+.custom_wireframe .HeaderContent .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.custom_wireframe .HeaderContent .wmeditor .dijitTextArea.dijitFocused,
+.custom_wireframe .HeaderContent .wmeditor .dijitTextArea.dijitFocused:hover,
+.custom_wireframe .HeaderContent .wmeditor .dijitComboBox.dijitFocused,
+.custom_wireframe .HeaderContent .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.custom_wireframe .HeaderContent .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.custom_wireframe .HeaderContent .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents{
+color: #000000;
+border-color: #000000;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+.custom_wireframe div.dojoxGrid, .custom_wireframe .wmlist {
+font-size: 12pt;
+}
+.custom_wireframe .GridListStyle div.wmlist-item {
+font-family: Verdana;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+}
+.custom_wireframe .GridListStyle .wmlist-item.Odd {
+color: #000000;
+background-color: #dddddd;
+}
+.custom_wireframe .GridListStyle .wmlist-cell {
+border-style: solid;
+border-color: #cccccc;
+border-left-width: 0px;
+border-right-width: 1px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+}
+.custom_wireframe .wmlist-header .wmlist-cell {
+border-right-width: 0px;
+}
+@media screen {
+.custom_wireframe .wmlist-item.wmlist-item-selected {
+background-color: #eeeeee !important;
+color: #000000;
+}
+.custom_wireframe .wmlist-header th {
+font-family: Verdana;
+color: #000000 !important;
+font-weight: bold;
+}
+body.tundra.custom_wireframe .wmlist-header {
+background-color: #ffffff;
+background-image: none;
+background-position: left top;
+background-repeat: repeat-x;
+}
+}
+.custom_wireframe .MobileListStyle div.wmlist-item,
+.custom_wireframe .MobileListStyle div.wmlist-item.Odd {
+background-color: #ffffff !important;
+color: #000000;
+}
+.custom_wireframe .MobileListStyle div.wmlist-item.wmlist-item-over,
+.custom_wireframe .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #ffffff !important;
+color: #000000;
+font-family: Verdana;
+}
+.custom_wireframe .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.custom_wireframe .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.custom_wireframe .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.custom_wireframe .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+background-color: #eeeeee !important;
+color: #000000;
+}
+.custom_wireframe .dijitMenu .dijitMenuArrowCell img.dijitMenuExpand {
+background-image: url(images/arrowRightDark.png) !important;
+background-position: 0% 50% !important;
+}
+.custom_wireframe div.dijitMenuBar div.dijitMenuItem {
+background-image: url(images/comboArrowDownDark.png) !important;
+background-position: 90% 50% !important;
+background-repeat: no-repeat !important;
+padding-right: 25px !important;
+}
+@media screen {
+.custom_wireframe .dojoMenu .dijitMenu,
+.custom_wireframe .dojoMenu .dijitMenuBar {
+font-family: Verdana;
+font-size: 12pt;
+font-weight: bold;
+color: #000000;
+background-color: transparent;
+background-image: none;
+}
+.custom_wireframe .dojoMenu.ClickableDojoMenu {
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .dojoMenu.ClickableDojoMenu .dijitMenuItem {
+color: #000000;
+}
+.custom_wireframe .dojoMenu .dijitMenuItem {
+color: #000000;
+}
+.custom_wireframe .dijitMenuBar .dijitMenuItem,
+.tundra .wm-darksnazzy .custom_wireframe .dijitMenuBar .dijitMenuItem {
+margin-right: 15px;
+}
+body.custom_wireframe .dojoMenu .dijitMenuPassive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected,
+body.custom_wireframe .dojoMenu .dijitMenuActive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected {
+color: #000000;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+outline-width: 0;
+}
+}
+.custom_wireframe .dijitMenuPopup .dijitMenuTable.dijitMenu.dijitReset,
+.custom_wireframe .dijitPopup .dijitCalendarMonthLabel {
+font-family: Verdana;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+border: solid 1px black;
+border-top: solid 1px #999999;
+-moz-box-shadow: 3px 3px 4px black;
+-webkit-box-shadow: 3px 3px 4px black;
+box-shadow: 3px 3px 4px black;
+}
+body.custom_wireframe  .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected
+{
+color: #000000;
+background-color: #ffffff;
+background-image: none;
+outline-width: 0;
+}
+body.custom_wireframe ul.dijitMenu .dijitMenuItem,
+body.custom_wireframe div.dijitMenu .dijitCalendarMonthLabel {
+color: #000000;
+background-color: #eeeeee;
+border-bottom-size: 1px;
+border-bottom-style: solid;
+border-bottom-color: #cccccc;
+}
+body.custom_wireframe  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected,
+body.custom_wireframe div.dijitMenu .dijitCalendarMonthLabel.dijitMenuItemHover {
+color: #000000;
+background-color: #ffffff;
+outline-width: 0;
+}
+body.tundra.custom_wireframe .dijitPopup ul.dijitMenu {
+border-width: 1px;
+border-style: solid;
+border-color: black;
+-moz-box-shadow: 4px 4px 8px black;
+-webkit-box-shadow: 4px 4px 8px black;
+box-shadow: 4px 4px 8px black;
+}
+.custom_wireframe button.wmtablayers-tab {
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+height: 23px;
+font-size: 9;
+}
+.custom_wireframe .wmtablayers-tab:hover, .custom_wireframe .wmtablayers-tab:focus {
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 1px 0px 1px #444444;
+}
+.custom_wireframe .wmtablayers-tab.wmtablayers-selected,
+.custom_wireframe .wmtablayers-tab.wmtablayers-selected:focus,
+.custom_wireframe .wmtablayers-verticaltab.wmtablayers-selected,
+.custom_wireframe .wmtablayers-verticaltab.wmtablayers-selected:focus {
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.custom_wireframe .wmtablayers-tab.wmtablayers-selected,
+.custom_wireframe .wmtablayers-tab.wmtablayers-tab {
+margin-left: 8px;
+-moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+}
+.custom_wireframe button.wmtablayers-verticaltab {
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+font-size: 9;
+width: 95%;
+margin-left: 5%;
+}
+.custom_wireframe .wmtablayers-verticaltab:hover, .custom_wireframe .wmtablayers-verticaltab:focus {
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: -2px 2px 2px #444444;
+}
+.custom_wireframe .wmtablayers-verticaltab.wmtablayers-selected,
+.custom_wireframe .wmtablayers-verticaltab.wmtablayers-verticaltab {
+margin-bottom: 5px;
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-topleft: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top-left-radius: 2px;
+}
+.custom_wireframe .wmtablayers-verticaltab:focus,
+.custom_wireframe .wmtablayers-tab:focus {
+outline-width: 0;
+}
+.custom_wireframe .wmFancyPanel-containerWidget {
+-moz-border-radius-topright: 0px !important;
+-moz-border-radius-topleft: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+-moz-box-shadow: 0px 0px 0px black !important;
+-webkit-box-shadow: 0px 0px 0px black !important;
+box-shadow: 0px 0px 0px black !important;
+}
+.custom_wireframe .wmaccordion .wmlayer {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+body.tundra.custom_wireframe  div.wmheader,
+body.tundra .custom_wireframe  div.wmheader,
+.custom_wireframe  .wmTabLayers-client > .wmlayer,
+.custom_wireframe  .wmWizardLayers-client > .wmlayer {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+.custom_wireframe .wmFancyPanel-containerWidget {
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-bottomright: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+.custom_wireframe .wmFancyPanel-labelWidget {
+-moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+}
+.custom_wireframe .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+display: block;
+background-image: url(images/arrowRightDark.png);
+}
+.custom_wireframe .wmaccordion .accordionArrowNode {
+display: block;
+background-image: url(images/comboArrowDownDark.png);
+}
+.custom_wireframe .wmaccordion .wmaccordion-content {
+background-color: transparent;
+}
+.custom_wireframe div.wmtablayers-tabbar {
+background: transparent;
+}
+.custom_wireframe button.wmtablayers-tab {
+border-bottom-color: transparent;
+border-right-color: #444444;
+}
+.custom_wireframe button.wmtablayers-verticaltab {
+border-right-color: transparent;
+border-bottom-color: #444444;
+}
+.custom_wireframe .wmwizardlayers-tab:hover,
+.custom_wireframe .wmwizardlayers-verticaltab:hover {
+color: black;
+}
+.custom_wireframe  .MainContent,
+#studio_designer.custom_wireframe .MainContent {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe div.wmaccordion-header {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+padding-left: 10px;
+}
+.custom_wireframe div.wmaccordion .wmaccordion-collapsed {
+color: #000000;
+font-weight: bold;
+font-family: Verdana;
+font-size: 12pt;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+.custom_wireframe .wmfancypanel .wmFancyPanel-labelWidget {
+font-family: Verdana;
+font-size: 12pt;
+font-weight: bold;
+color: #000000;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe button.wmtablayers-tab {
+font-family: Verdana;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+border-bottom-color: transparent;
+border-top-color: #444444;
+border-left-color: #444444;
+border-width: 1px;
+border-style: solid;
+}
+.custom_wireframe .wmtablayers-tab:focus {
+color: #000000;
+background-color: #e5e5e5;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .wmtablayers-tab.wmtablayers-selected,
+.custom_wireframe .wmtablayers-tab.wmtablayers-selected:focus {
+color: #000000;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .wmwizardlayers-tab:focus,
+.custom_wireframe .wmwizardlayers-verticaltab:focus,
+color: black;
+}
+.custom_wireframe .HeaderContent {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.custom_wireframe  .HeaderContent {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #bbbbbb;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent div.wmaccordion-header {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+padding-left: 10px;
+}
+.custom_wireframe .HeaderContent div.wmaccordion .wmaccordion-collapsed {
+color: #000000;
+font-weight: bold;
+font-family: Verdana;
+font-size: 12pt;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+.custom_wireframe .HeaderContent .wmfancypanel .wmFancyPanel-labelWidget {
+font-family: Verdana;
+font-size: 12pt;
+font-weight: bold;
+color: #000000;
+background-color: #b2b2b2;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent button.wmtablayers-tab {
+font-family: Verdana;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .wmtablayers-tab:focus {
+color: #000000;
+background-color: #e5e5e5;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmtablayers-tab.wmtablayers-selected,
+.custom_wireframe .HeaderContent .wmtablayers-tab.wmtablayers-selected:focus {
+color: #000000;
+background-color: #444444;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmwizardlayers-tab:focus,
+.custom_wireframe .HeaderContent .wmwizardlayers-verticaltab:focus {
+color: black;
+}
+.custom_wireframe #wmMinifiedDialogPanel {
+opacity: 0.6;
+background-color: #eeeeee;
+-moz-box-shadow: 0px -2px 4px black;
+-webkit-box-shadow: 0px -2px 4px black;
+box-shadow: 0px -2px 4px black;
+}
+.custom_wireframe #wmMinifiedDialogPanel .wmbutton {
+-moz-border-radius: 0px !important;
+-webkit-border-radius: 0px !important;
+border-radius: 0px !important;
+font-size: 8pt;
+}
+.custom_wireframe .wmprogressbar .dijitProgressBar {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.custom_wireframe .wmprogressbar .dijitProgressBarTile {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.custom_wireframe .wmprogressbar .dijitProgressBarFull {
+border-right-width: 0px;
+}
+@media screen {
+.custom_wireframe  .wmprogressbar .dijitProgressBarTile {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe  .wmprogressbar .dijitProgressBar {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+@media screen {
+.custom_wireframe .HeaderContent .wmprogressbar .dijitProgressBarTile {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: bold;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.custom_wireframe .HeaderContent .wmprogressbar .dijitProgressBar {
+font-family: Verdana;
+font-size: 12pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+.custom_wireframe div.wmsplitter-h,
+.custom_wireframe div.wmsplitter-v,
+.custom_wireframe .wmbevel {
+background-color: #ffffff;
+}
+.custom_wireframe div.wmsplitter-h:hover,
+.custom_wireframe div.wmsplitter-v:hover {
+background-color: #ffffff;
+}
+.custom_wireframe .wmsplitter-h {
+background-image: url(images/splitter_bg_h.png);
+}
+.custom_wireframe .wmsplitter-v {
+background-image: url(images/splitter_bg_v.png);
+}

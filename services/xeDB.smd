@@ -1,0 +1,13 @@
+{
+	"methods": [{
+		"name": "getProductCategoryById",
+		"operationType": "hqlquery",
+		"parameters": [{
+			"name": "id",
+			"type": "java.lang.String"
+		}],
+		"returnType": "com.xedb.data.ProductCategory"
+	}],
+	"serviceType": "JSON-RPC",
+	"serviceURL": "xeDB.json"
+}
